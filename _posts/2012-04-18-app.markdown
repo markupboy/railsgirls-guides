@@ -68,7 +68,7 @@ cd projects
     </div>
 
 {% highlight sh %}
-rails new railsgirls
+rails new railsgirls -m http://railsgirls.com/simple_scaffold.rb
 {% endhighlight %}
 
     <div>
@@ -106,7 +106,7 @@ cd projects
     </div>
 
 {% highlight sh %}
-rails new railsgirls
+rails new railsgirls -m http://railsgirls.com/simple_scaffold.rb
 {% endhighlight %}
 
     <div>

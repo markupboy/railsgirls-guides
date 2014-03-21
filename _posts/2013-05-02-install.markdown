@@ -4,7 +4,24 @@ title: Setup recipe for Rails Girls
 permalink: install
 ---
 
-# Setup recipe for Rails Girls
+# Nitrous.io
+
+Nitrous.io is a development environment "in the cloud". It allows you to learn Ruby, Rails and a host of other languages without the difficulty of setting up your system. Nitrous uses Amazon's EC2 and sets up a ready made environment for you, complete with a web based editor and shell. We recommend you setup an account and use it for the tutorials at this workshop. If you'd prefer to have a local install one of our coaches would be happy to assist. The primary reason you would want to setup a local environment instead of using Nitrious.io is if you want to be able to work offline (eg without an internet connection.)
+
+## Start using nitrous
+
+* First go to [Nitrous.io](http://nitrous.io) and sign up for an account. 
+* Confirm your email address
+* Select a Ruby on Rails environment
+* Choose a name for your system
+* Hit next on the "Get more N2O" screen (you only need to buy credits to run more than one machine or to et a more powerful system)
+* The following screen tells you about the nitrous development environment, when you're satisfied hit "Okay, Take Me to my Box!
+
+Congrats, you now have a working Ruby on Rails environment. You can move on to the [App instructions](/app) when you're ready.
+
+<hr />
+
+# Installing rails on your computer
 <span class="muted">Cooking time: 5min active / 15-30min passive</span>
 
 To build apps and other things with Ruby on Rails, we need to setup some software and the developer environment for your computer.
@@ -45,7 +62,7 @@ gem update rails --no-ri --no-rdoc
 Make sure that all works well by running the application generator command.
 
 {% highlight sh %}
-rails new railsgirls
+rails new railsgirls -m http://railsgirls.com/simple_scaffold.rb
 {% endhighlight %}
 
 **Step 3-B.** Install with rbenv (For 10.9):
@@ -101,6 +118,12 @@ rbenv global 2.1.1
 gem i rails --no-ri --no-rdoc
 {% endhighlight %}
 
+3-B-7. Run rbenv rehash:
+
+{% highlight sh %}
+rbenv rehash
+{% endhighlight %}
+
 **Final step.** Install a text editor to edit code files. For the workshop we recommend the text editor Sublime Text.
 
 * [Download Sublime Text and install it](http://www.sublimetext.com/2)
@@ -122,7 +145,7 @@ gem update rails --no-ri --no-rdoc
 Make sure that all works well by running the application generator command.
 
 {% highlight sh %}
-rails new railsgirls
+rails new railsgirls -m http://railsgirls.com/simple_scaffold.rb
 {% endhighlight %}
 
 **Final step.** You also need a text editor to edit code files. For the workshop we recommend the text editor Sublime Text.
@@ -152,7 +175,7 @@ bash < <(curl -s https://raw.github.com/railsgirls/installation-scripts/master/r
 Make sure that all works well by running the application generator command.
 
 {% highlight sh %}
-rails new railsgirls
+rails new railsgirls -m http://railsgirls.com/simple_scaffold.rb
 {% endhighlight %}
 
 **Final step.** You also need a text editor to edit code files. For the workshop we recommend the text editor Sublime Text.
