@@ -14,7 +14,7 @@ Nitrous.io is a development environment "in the cloud". It allows you to learn R
 * Confirm your email address
 * Select a Ruby on Rails environment
 * Choose a name for your system
-* Hit next on the "Get more N2O" screen (you only need to buy credits to run more than one machine or to et a more powerful system)
+* Hit next on the "Get more N2O" screen (you only need to buy credits to run more than one machine or to get a more powerful system)
 * The following screen tells you about the nitrous development environment, when you're satisfied hit "Okay, Take Me to my Box!
 
 Congrats, you now have a working Ruby on Rails environment. You can move on to the [App instructions](/app) when you're ready.
